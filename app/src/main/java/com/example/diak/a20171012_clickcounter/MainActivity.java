@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             counter = 0;
             counterText.setText(Integer.toString(counter));
         }
-        if (counter == 20){
+        if (borzalom == 20){
             Context context = getApplicationContext();
             CharSequence text = "Unatkozol, mi?";
             int duration = Toast.LENGTH_LONG;
